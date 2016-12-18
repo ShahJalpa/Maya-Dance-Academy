@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 18, 2015, 6:39:24 PM
+    Author     : jalpa
+*/
+body
+{
+    background-color:floralwhite;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 1000px;
+}
+
+nav.horizontal ul 
+{
+   display: block;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   border-bottom: 1px solid black;
+     
+   font-family: Times New Roman,Georgia,serif;
+   font-size: 17px;
+   font-weight: bold;
+   font-style: normal;
+      
+   letter-spacing: 1px;
+   line-height: 20px;
+ }
+
+nav.horizontal ul li 
+{
+   display: block;
+   float: left;
+   text-align: center;
+   width: 200px;
+   background-color: indianred;
+}
+
+nav.horizontal a
+{
+    text-decoration: none;
+    color: darkblue;
+}
+
+nav.horizontal a:hover
+{
+    text-decoration: underline;
+    color: maroon;
+}
+
+article
+{
+    width: 60%;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    
+}
+
+#backTop a
+{
+    color: red;
+    margin-bottom: 100px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Times New Roman,Georgia,serif;
+}
+
+aside
+{
+    display: block;
+    width: 33%;
+    float: right;
+    margin-top: 10px;
+    margin-left: 35px;
+    
+    border: 1px solid plum;
+    padding: 5px;
+    background-color: plum;
+    
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    
+    box-shadow: thistle 10px 10px 15px;
+    -moz-box-shadow: thistle 10px 10px 15px;
+    -webkit-box-shadow: thistle 10px 10px 15px;
+}
+
+footer
+{
+    display: block;
+    width: 100%;
+    clear: left;
+    text-align: center;
+    font-family: Times New Roman,Georgia,serif;
+    font-size: 0.8em;
+    font-style: normal;
+    font-variant: small-caps;
+    color: darkblue;
+    border-top: 1px solid black;
+    background-color: indianred;
+    margin-top:30px;
+}

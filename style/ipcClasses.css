@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 25, 2015, 10:07:46 PM
+    Author     : jalpa
+*/
+
+article h2
+{
+    color: royalblue;
+    font-family: Times New Roman,Georgia,serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    clear: both;
+}
+
+article p
+{
+    color: maroon;
+    font-family: Times New Roman,Georgia,serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    text-spacing: 0.5px;
+    line-height: 175%;
+}
+
+
+form
+{
+    clear: both;
+}
+
+form label
+{
+    clear: both;
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: maroon;
+    text-align: right;
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 25%
+    
+}
+
+form input
+{
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 45%;
+}
+
+form select
+{
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+form textArea
+{
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 30px;
+}
+
+form input[type="submit"]
+{
+    display: initial;
+    width: 100px;
+    height:25px;
+    margin-top: 20px;
+    padding: 0;
+    margin-right: 100px;
+}
+
+#caption
+{
+    color: maroon;
+    font-family: Times New Roman,Georgia,serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 0px;
+}
+
+

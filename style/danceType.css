@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 23, 2015, 4:36:03 PM
+    Author     : jalpa
+*/
+
+article h3
+{
+    color: royalblue;
+    font-family: Times New Roman,Georgia,serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-spacing: 1em;
+}
+
+article p
+{
+    color: maroon;
+    font-family: Times New Roman,Georgia,serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    text-spacing: 0.5px;
+    line-height: 175%;
+}
+
+article p:nth-child(3)::first-line
+{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+article p a
+{
+    color: red;
+    text-decoration: underline;
+}
+
+article p a:hover
+{
+    color: blue;
+}
+
+aside h2
+{   
+    color: darkmagenta;
+    font-family: Times New Roman,Georgia,serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-spacing: 1em;
+    margin-bottom: 0;
+}
+
+aside h3
+{
+    color: darkmagenta;
+    font-family: Times New Roman,Georgia,serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-spacing: 1em;
+    margin-top: 0;
+}
+
+aside p
+{
+    color: brown;
+    font-family: Times New Roman,Georgia,serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-style: italic;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 160%;
+}

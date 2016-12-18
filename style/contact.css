@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 24, 2015, 1:58:58 PM
+    Author     : jalpa
+*/
+/*ontainer
+{
+    display: block;
+}*/
+
+form
+{
+    clear: both;
+}
+
+p
+{
+    color: maroon;
+    font-family: Times New Roman,Georgia,serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    text-spacing: 0.5px;
+    line-height: 175%;
+    margin-left: 40px;
+}
+
+form fieldset
+{
+    background-color: #e5f2ff;
+    border: 1px solid royalblue;
+    float: center;
+    width: 90%;
+    margin: 10px 10px 10px 3%;
+}
+
+form legend
+{
+    background-color: royalblue;
+    color: black;
+    padding: 0px;
+    text-indent: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+form label
+{
+    clear: left;
+    display: block;
+    float: left;
+    font-size: 13px;
+    margin: 7px 4% 7px 5px;
+    width: 45%;
+    text-align: left;
+}
+
+form input
+{
+    display: block;
+    float: left;
+    font-size: 13px;
+    margin: 7px 0px;
+    width: 45%;
+}
+
+form textArea
+{
+    display: block;
+    font-size: 13px;
+    float: left;
+    height: 50px;
+    margin: 10px 0px;
+    width: 45%;
+}
+
+form input[type="submit"] 
+{
+    display: inline;
+    float: none;
+    height: 25px;
+    width: 100px;
+    margin-left: 100px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+form input[type="reset"]
+{
+    display: inline;
+    float: none;
+    height: 25px;
+    width: 100px;
+    margin-top: 25px;
+}
+
+aside p::first-line
+{
+    font-size: 17px;
+    font-weight: bold;
+    color: darkmagenta;
+    text-decoration: underline;
+}
+
+
+
+aside p
+{
+    color: maroon;
+}
+
+
