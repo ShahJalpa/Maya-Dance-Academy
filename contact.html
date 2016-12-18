@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--
+        2015FA MIS-141-300 Website Development: HTML & CSS
+        Final Project
+        Maya Dance Academy
+        
+        Author: Jalpa Shah
+        Date: 11/14/2015
+        
+        filename: Home.html
+        supporting file:-->
+
+        <title>Maya Dance Academy</title>
+        <meta charset="UTF-8">
+        <script src="modernizr-1.5.js"></script>
+        <script src="formsubmit.js"></script>
+        <link href="style/contact.css" rel="stylesheet" type="text/css">
+        <link href="style/layout.css" rel="stylesheet" media="screen"/>
+    </head>
+    
+    <body> <!--bgcolor="FloralWhite"-->
+        <a name="top"></a>
+        <header>
+            <h1>
+                <a href="index.html"><img src="images/MayaLogo3.jpg" width="600" height="200" alt="Maya Dance Academy" /></a>
+            </h1>
+        </header>
+        
+        <nav class="horizontal">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutMe.html">About me</a></li>
+                <li><a href="dance.html">What is Dance!!!</a></li>
+                <li><a href="classe.html">Classes</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        
+        <section>
+            <article>
+                <!--<p>Required values are marked by an asterisk (*)</p>-->
+                <form id="contact" name="contact" action="contact.html" method="post">
+                    <fieldset id="inquiryInfo">
+                        <legend>Contact Us</legend>
+                        
+                        <label>Required values are marked by asterisk (*)</label>
+                        
+                        <label for="firstName">First Name *</label>
+                        <input name="firstName" id="firstName" />
+                    
+                        <label for="lastName">Last Name *</label>
+                        <input name="lastName" id="lastName" />
+                    
+                        <label for="phoneNumber">Phone Number</label> 
+                        <input name="phoneNumber" id="phoneNumber" placeholder="(nnn) nnn-nnnn"/>
+
+                        <label for="email">E-mail *</label>
+                        <input name="email" id="email" />
+                    
+                        <label for="subject">Subject *</label>
+                        <input name="subject" id="subject" />
+                    
+                        <label for="message">Message *</label>
+                        <textarea name="message" id="message"></textarea>
+                        
+                        <p>
+                            <input type="submit" value="Submit" />
+                            <input type="reset" value="Cancel" />
+                        </p>
+                    </fieldset>
+                  
+                </form>
+            </article>
+        </section>
+        
+        <aside>
+            <p>Visit Us at: <br>
+               Maya Dance Academy <br>
+               Tinley Park IL 60487
+            </p>
+        </aside>
+        
+        <footer>
+            Maya Dance Academy: Final Project for 2015FA MIS-141-300 Website Development: HTML & CSS
+        </footer>
+    </body>
+</html>

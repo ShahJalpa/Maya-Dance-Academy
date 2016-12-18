@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--
+        2015FA MIS-141-300 Website Development: HTML & CSS
+        Final Project
+        Maya Dance Academy
+        
+        Author: Jalpa Shah
+        Date: 11/14/2015
+        
+        filename: Home.html
+        supporting file:-->
+
+        <title>Maya Dance Academy</title>
+        <meta charset="UTF-8">
+        <script src="modernizr-1.5.js"></script>
+        <link href="style/ipcClasses.css" rel="stylesheet" media="screen"/>
+        <link href="style/layout.css" rel="stylesheet" media="screen"/>
+    </head>
+    
+    <body> <!--bgcolor="FloralWhite"-->
+        <a name="top"></a>
+        <header>
+            <h1>
+                <a href="index.html"><img src="images/MayaLogo3.jpg" width="600" height="200" alt="Maya Dance Academy" /></a>
+            </h1>
+        </header>
+        
+        <nav class="horizontal">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutMe.html">About me</a></li>
+                <li><a href="dance.html">What is Dance!!!</a></li>
+                <li><a href="classe.html">Classes</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <h2>In Person Classes</h2>
+                <p>
+                    Maya Dance Academy offers Bollywood, Bharatnatyam, Indian folk dances, 
+                    Combo (Bharatnatyam and Bollywood), Bollywood work-out, Private classes for 
+                    private parties.
+                    <br>
+                    <br>
+                    Join Maya Dance Academy today!! Enroll now!!
+                    <br>
+                    <br>
+                    Simply fill out the registration form below and our Maya staff will 
+                    contact you as soon as possible with the appropriate class timings.
+                </p>
+                <form id="enrolment" method="post" action="ipcClasses.html">
+                    <label for="studentName">Student's Name</label>
+                    <input name="studentName" id="studentName"/>
+                    
+                    <label for="parentName">Parent's Name</label>
+                    <input name="parentName" id="parentName"/>
+                    
+                    <label for="phone">Phone</label>
+                    <input name="phoen" id="phone" placeholder="(nnn) nnn-nnnn"/>
+                    
+                    <label for="email">E-mail</label>
+                    <input name="email" id="email"/>
+                    
+                    <label for="DOB">Date of Birth</label>
+                    <input name="DOB" id="DOB" placeholder="mm / dd / yyyy"/>
+                    
+                    <label for="classes">Classes</label>
+                    <select name="classes" id="classes">
+                        <option></option>
+                        <option>Bharatnatyam</option>
+                        <option>Bollywood</option>
+                        <option>Combo (Bollywood + Bhartanatayam)</option>
+                        <option>Folk</option>
+                        <option>Bollywood work-out</option>
+                        <option>Private Classes</option>
+                    </select>
+                    
+                    <label for="classes"></label>
+                    <select name="classes" id="classes">
+                        <option></option>
+                        <option>Bharatnatyam</option>
+                        <option>Bollywood</option>
+                        <option>Combo (Bollywood + Bhartanatayam)</option>
+                        <option>Folk</option>
+                        <option>Bollywood work-out</option>
+                        <option>Private Classes</option>
+                    </select>
+                    
+                    <label for="classes"></label>
+                    <select name="classes" id="classes">
+                        <option></option>
+                        <option>Bharatnatyam</option>
+                        <option>Bollywood</option>
+                        <option>Combo (Bollywood + Bhartanatayam)</option>
+                        <option>Folk</option>
+                        <option>Bollywood work-out</option>
+                        <option>Private Classes</option>
+                    </select>
+                    
+                    <label for="hear">How did you hear about Maya?</label>
+                    <select name="hear" id="hear">
+                        <option></option>
+                        <option>Online Search</option>
+                        <option>Word of Mouth</option>
+                        <option>Print Ad</option>
+                        <option>Saw a Performance</option>
+                        <option>Other</option>
+                    </select>
+                    <label for="notes">Additional Notes</label>
+                    <textarea name="notes" id="notes"></textarea>
+                    
+                    <label for="space"></label>
+                    <input type="submit" value="Submit" />
+                    
+                </form>
+                
+                    
+            </article>
+            
+        </section>
+        <aside>
+            <figure>
+                <img src="images/11.jpg" width="200" height="150" alt="image1"/>
+                <div id="caption">
+                    Gummar Dance (Folk dance from Rajsthan, India)
+                    at charity event, Australia
+                </div>
+            </figure>
+            <figure>
+                <img src="images/5.jpg" width="200" height="150" alt="image2"/>
+                <div id="caption">
+                    Santhal Dance (Folk dance from North India) 
+                    at charity event, Australia
+                </div>
+            </figure>
+            <figure>
+                <img src="images/bollywood.jpg" width="200" height="150" alt="image3"/>
+                <div id="caption">
+                    Bollywood dance at HTGC, Lemont IL
+                </div>
+            </figure>
+                
+            
+        </aside>
+        
+        <footer>
+            Maya Dance Academy: Final Project for 2015FA MIS-141-300 Website Development: HTML & CSS
+        </footer>
+    </body>
+</html>
